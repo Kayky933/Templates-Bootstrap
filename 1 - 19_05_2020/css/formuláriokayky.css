@@ -1,0 +1,163 @@
+
+body{
+    background-color: darkgray;
+}
+
+.corpo{
+    margin: 0 auto;
+    width: 600px;
+    background-color: white;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    margin-bottom:40px ;
+    
+    
+}
+hr{
+    border-top: 3px;
+    border-style:  solid;
+    border-color: darkgray ;
+}
+
+.formulario{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#borda1{
+    border-style:double;
+    border-width: 4px ;
+    padding: 20px;
+}
+#borda2{
+    border-style:double;
+    border-width: 4px ;
+    height: 220px;
+}
+
+.dados{
+    font-size: 20px;
+    font-weight: bold
+}
+
+#nome{
+    margin-left: 50px;
+}
+
+#nome_local{
+    margin-left: 20px;
+    width: 200px;
+}
+
+#nascimentolabel{
+    margin-left: 20px;
+}
+
+#inputnascimento{
+    width: 30px;
+}
+
+#labelmae{
+    margin-left: 80px;
+}
+
+#labelpai{
+    margin-left: 85px;
+}
+
+#ddd{
+    width: 30px;
+}
+
+#tel{
+    width: 100px;
+}
+
+#ramal{
+    width: 70px;
+}
+#labelemail{
+    margin-left: 119px;
+}
+
+#input_email{
+    width: 225px;
+}
+
+.info{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#series{
+    margin-left: 20px;
+    
+}
+
+#turno{
+    margin-left: 200px;
+   margin-top: -30px;
+}
+#manha{
+    margin-left: 200px;
+
+}
+#noite{
+    margin-left: 200px;
+}
+
+
+.label_atividades{
+    float: right;
+}
+
+#atividades_palavra{
+    float: right;
+    margin-right: 100px;
+    margin-top: -55px;
+}
+
+#atividades{
+    display: flex;
+    margin-left: 320px;
+    margin-top: -30px ;
+    margin-bottom: 40px;
+  float: left; 
+
+
+}
+
+#atividades_sports{
+    float: left;
+    display: flex;
+    margin-left: 340px;
+    margin-top: -55px;
+   
+  
+}
+
+#botoes{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

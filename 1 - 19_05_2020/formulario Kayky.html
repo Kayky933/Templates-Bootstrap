@@ -1,0 +1,135 @@
+<doctype html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/formuláriokayky.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+
+    <head>
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <div class="corpo">
+            <br>
+            <h1 class="formulario">Formulário de Pré-Matricula</h1>
+            <hr>
+            <div id="borda1">
+                <br>
+                <h2 class="dados">Dados pessoais</h2>
+                <br>
+                <form action="" method="POST">
+                    <!--Nome aluno-->
+                    <label name="labelnome" id="nome" for="nome">Nome do aluno</label>
+                    <input name="input_nome_local" type="text" id="nome_local">
+
+                    <br>
+                    <br>
+
+                    <label name="label_nascimento" for="nascimento" id="nascimentolabel">Nascimento(dd/nn/aaa)</label>
+                    <input name="input_nascimento" type="text" id="inputnascimento">/
+                    <input name="input_nascimento" type="text" id="inputnascimento">/
+                    <input name="input_nascimento" type="text" id="inputnascimento">
+
+                    <br>
+                    <br>
+
+                    <label name="label_nome_da_mãe" for="nome" id="labelmae">Nome da mãe</label>
+                    <input name="input_nomemae" type="text">
+                    <br>
+                    <br>
+                    <label name="label_nomedopai" for="nome" id="labelpai">Nome do pai</label>
+                    <input name="input_nomepai" type="text">
+
+                    <br>
+                    <br>
+
+                    <label name="label_ddd" for="ddd">Telefone DDD</label>
+                    (<input name="input_ddd" type="text" id="ddd">)
+
+                    <label name="label_telefone" for="tel">Tel:</label>
+                    <input name="inpur_telefone" type="text" id="tel">
+
+                    <label name="label_ramal" for="ramal">Ramal:</label>
+                    <input name="input_ramal" type="text" id="ramal">
+
+                    <br>
+                    <br>
+                    <label name="label_emali" for="nome" id="labelemail">E-mail:</label>
+                    <input name="input_email" id="input_email" type="text">
+            </div>
+            <div id="borda2">
+                <br>
+                <h2 class="info">Informações de matricula:</h2>
+                <br>
+                <div id="series">
+                    <label name="label_serie" for="series">Série</label>
+                    <br>
+
+                    <select>
+                        <option>Pré-escola</option>
+                        <option>7° ano</option>
+                        <option>8° ano</option>
+                        <option>9° ano</option>
+                        <option>1° ano</option>
+                        <option>2° ano</option>
+                        <option>3° ano</option>
+                    </select>
+                </div>
+
+
+                <h2 id="turno">Turno</h2>
+
+
+                <input name="turno" type="radio" id="manha" value="turno"> <label name="labelmanha"
+                    for="manha">Manhã</label>
+                <br>
+                <input name="turno" type="radio" id="noite" value="turno"> <label name="label_noite"
+                    for="noite">Noite</label>
+                <br>
+
+
+
+                <h2 id="atividades_palavra">Atividades Extra curriculares:</h2>
+                <div class="label_atividades">
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades" id="atividades_sports">Informática</label>
+
+
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades_sports" id="atividades_sports">música</label>
+
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades_sports" id="atividades_sports">Balet</label>
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades_sports" id="atividades_sports">Pintura</label>
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades_sports" id="atividades_sports">Judô</label>
+
+                    <input name="input_atividades" type="checkbox" name="atividades" id="atividades">
+                    <label name="label_atividades" for="atividades_sports" id="atividades_sports">Futebol</label>
+                   
+                </div>
+            </div>
+            <div id="botoes">
+                <label name="enviar" for="enviar"></label>
+                <input name="input_enviar" type="submit" id="enviar" value="Enviar Formulário">
+                <label name="enviar" for="enviar"></label>
+                <input name="input_limpar" type="reset" id="limpar" value="Limpar Campos">
+            </form>
+            </div>
+
+        </div>
+
+  
+
+
+
+
+
+        </div>
+    </body>
+</doctype>
